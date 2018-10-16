@@ -1,0 +1,154 @@
+body {
+  background-color: #EFEFEF;
+}
+
+body .navbar {
+  background-color: #27282d;
+}
+
+body .navbar ul li :hover {
+  color: white !important;
+}
+
+body .navbar .lobby {
+  background-image: url(../images/home.png);
+  background-repeat: no-repeat;
+  zoom: 0.1;
+  -moz-transform: scale(0.1);
+  height: 200px;
+  margin: 0 auto;
+}
+
+body .navbar .solutions {
+  background-image: url(../images/solutions.png);
+  background-repeat: no-repeat;
+  zoom: 0.1;
+  -moz-transform: scale(0.1);
+  height: 200px;
+  margin: 0 auto;
+}
+
+body .navbar .me {
+  background-image: url(../images/sarah.jpeg);
+  background-repeat: no-repeat;
+  zoom: 0.1;
+  -moz-transform: scale(0.1);
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+body .navbar .dropdown-menu li {
+  margin: 10px;
+}
+
+body .navbar .dropdown-menu li:nth-child(1)::before {
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  zoom: 0.5;
+}
+
+body #header-logo {
+  -webkit-transform: translateY(75%);
+          transform: translateY(75%);
+  margin-left: 10px;
+}
+
+body section#profile {
+  margin: 10em auto;
+  border: 1px solid gray;
+}
+
+body section#profile .card-body .card-text {
+  font-size: 2em;
+}
+
+body section#profile .card-body p:nth-child(1) {
+  font-family: cursive;
+}
+
+body section#profile .card-body p:nth-child(2) {
+  font-size: 1.2em;
+}
+
+body section#profile .row .col-sm-4 {
+  margin-bottom: 15px;
+}
+
+body section#profile .row a {
+  text-decoration: none;
+  color: dimgray;
+}
+
+body section#profile .row:nth-child(2) {
+  padding-top: 0px;
+}
+
+body section#profile .profile-sub-link {
+  padding: 15px;
+}
+
+body section#profile .card-img-top {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate(20px, -50%);
+          transform: translate(20px, -50%);
+}
+
+body section#profile hr {
+  border-top: 1px solid lightgray;
+  margin: 40px 100px 0px 100px;
+  z-index: -1;
+}
+
+body section#profile .btn {
+  color: #fff;
+  background-color: #6c757d;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body section#profile .development, body section#profile .contributions, body section#profile .feedback, body section#profile .people, body section#profile .marketplace, body section#profile .people-conference {
+  background-image: url("../images/sprite-icons.png");
+  background-repeat: no-repeat;
+  zoom: 0.5;
+  margin: 20px auto;
+}
+
+body section#profile .development {
+  background-position: -213px -642px;
+  width: 80px;
+  height: 73px;
+}
+
+body section#profile .contributions {
+  background-position: -108px -3px;
+  width: 86px;
+  height: 73px;
+}
+
+body section#profile .feedback {
+  background-position: -972px 0px;
+  width: 60px;
+  height: 73px;
+}
+
+body section#profile .people {
+  background-position: -640px -218px;
+  width: 77px;
+  height: 73px;
+}
+
+body section#profile .marketplace {
+  background-position: -426px -212px;
+  width: 77px;
+  height: 73px;
+}
+
+body section#profile .people-conference {
+  background-position: -1069px -643px;
+  width: 78px;
+  height: 73px;
+}
+/*# sourceMappingURL=main.css.map */
